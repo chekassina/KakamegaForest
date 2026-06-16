@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-safari-dark: #192518;
+  --color-safari-primary: #867b4d; 
+  --color-safari-accent: #A2946A;
+  --color-safari-light: #F7F5EB;
+  --color-safari-earth: #C5A173;
+}
+
+body {
+  @apply font-sans antialiased bg-safari-light text-safari-dark;
+}
